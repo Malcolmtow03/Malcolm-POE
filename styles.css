@@ -276,3 +276,48 @@ p {
   text-align: center;
   padding: 10px 0;
 }
+
+/*media*/
+@media only screen and (min-width:768px){
+  .resume-section,
+  .media-section,
+  .phrasing-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 40px;
+  }
+
+  .resume-item,
+  .video-item,
+  .phrasing-item{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .video-item video{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:767px){
+  .resume-section,
+  .media-section,
+  .phrasing-section{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resume-item,
+  .video-item,
+  .phrasing-item{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .video-item video{
+    width: 100%;
+  }
+}
