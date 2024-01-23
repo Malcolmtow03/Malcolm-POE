@@ -23,7 +23,7 @@ body, h1, h2, h3, p, ul, li {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(M1.jpg); /* Replace with your background image */
+    background-image: url(./M1.jpg); /* Replace with your background image */
     background-size: 70%;
     background-position: center;
     filter: opacity(50); /* Adjust the opacity as needed */
@@ -261,6 +261,7 @@ p {
 
 /* Style individual social media icons */
 
+
 .icon.fa-instagram {
   color: #e4405f; /* Instagram pink */
 }
@@ -276,4 +277,3 @@ p {
   text-align: center;
   padding: 10px 0;
 }
-
